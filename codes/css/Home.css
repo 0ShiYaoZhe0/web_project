@@ -1,0 +1,29 @@
+body {
+    background-color:#000000;
+}
+.Home_picture{
+    position:fixed;
+    top:100px;
+    left: 300px;
+}
+.part_one{
+    position:fixed;
+    left: 50px;
+    top: 600px;
+    color: rgb(255, 255, 255);
+}
+
+.type_one{
+    font-size: 24px;
+    color: #8c8c8c;
+}
+/*有哪位神仙可以帮我改一下这个圆角图片的css啊*/
+#picture_one{
+    border-radius: 25px;
+    background: url(../picture/game.png);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
